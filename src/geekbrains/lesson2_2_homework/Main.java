@@ -36,7 +36,6 @@ public class Main {
     }
 
 
-
         static void checkSize(String[][] values) {
             if (values.length != 4) {
                 throw new MyArraySizeException(String.format("Строк в массиве %s ,вместо положенныех 4", values.length));
