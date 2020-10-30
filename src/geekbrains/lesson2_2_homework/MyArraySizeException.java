@@ -1,6 +1,7 @@
 package geekbrains.lesson2_2_homework;
 
 public class MyArraySizeException extends RuntimeException {
+
     public MyArraySizeException() {
     }
 
